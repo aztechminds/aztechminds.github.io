@@ -1,31 +1,29 @@
-body{
+body {
     background-color: #FDF7F4;
 }
 
 
 .leftmenu {
-    position: fixed; /* Sticks the menu to the viewport */
+    position: fixed;
     bottom: 0;
     left: 0;
-    width: 275px; /* Width of the menu */
-    height: 100%; /* Full height of the page */
-    background-color: #333; /* Dark background color */
+    width: 120px;
+    height: 100%;
+    background-color: #333;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    box-shadow: -2px 0 5px rgba(0,0,0,0.5); /* Subtle shadow for depth */
     list-style-type: none;
 
 }
 
-.profile-picture{
+.profile-picture {
     width: 120px;
     height: 120px;
     border-radius: 50%;
     border: 2px;
-    margin: auto;
-
+    margin: auto
 }
 
 .leftmenu>ul {
@@ -37,55 +35,56 @@ body{
     text-align: center;
     margin-bottom: auto;
     margin-top: auto;
-    }
+}
 
 .leftmenu>li>a {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-decoration: none;
-    }
+}
 
 .leftmenu>li>a:hover {
-    background-color: #0D92F4; /* Highlight on hover */
+    background-color: #0D92F4;
     text-decoration: underline;
     font-weight: bold;
 }
 
-/* Style for the background image */
+
 .background {
-    position: absolute; /* Position it behind the content */
+    position: absolute;
     top: 0;
     right: 0;
-    width: 80%; /* Image will cover 80% of the viewport width */
-    height: auto; /* Maintain aspect ratio */
-    opacity: 0.8; /* Make it slightly transparent for better readability */
-    z-index: -1; /* Place the image behind other elements */
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    z-index: -1;
 }
 
 .content {
-    margin-left: 320px; /* Adjust content to avoid overlapping with the menu */
+    margin-left: 320px;
     padding: 20px;
-    margin-top: 500px;
     font-family: Arial, Helvetica, sans-serif;
     color: #0D92F4;
 }
 
 .about {
-    margin-left: 320px; /* Adjust content to avoid overlapping with the menu */
+    margin-left: 320px;
     padding: 20px;
     margin-top: 3px;
     font-family: Arial, Helvetica, sans-serif;
     color: #0D92F4;
 }
+
 .education {
-    margin-left: 320px; /* Adjust content to avoid overlapping with the menu */
+    margin-left: 320px;
     padding: 20px;
     margin-top: 3px;
     font-family: Arial, Helvetica, sans-serif;
     color: #0D92F4;
 }
+
 .contact {
-    margin-left: 320px; /* Adjust content to avoid overlapping with the menu */
+    margin-left: 320px;
     padding: 20px;
     margin-top: 3px;
     font-family: Arial, Helvetica, sans-serif;
@@ -93,7 +92,7 @@ body{
 }
 
 
-/* Content styling */
+
 h1 {
     text-align: left;
     font-size: 55px;
@@ -104,41 +103,46 @@ p {
     line-height: 2;
 }
 
-.contact-question{
+.contact-question {
     text-align: left;
-    }
-.contact-form{
+}
+
+.contact-form {
     max-width: 600px;
     padding: 20px
-    }
-.contact-form>label{
+}
+
+.contact-form>label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
-.contact-form>input, 
+
+.contact-form>input,
 .contact-form>textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
 }
 
-.button{
+.button {
     width: 150px;
     height: 30px
 }
+
 .button:hover {
-    background-color: #0D92F4; /* Highlight on hover */
+    background-color: #0D92F4;
     text-decoration: underline;
     font-weight: bold;
 }
 
-.contact-icons{
-display: flex;
-justify-content: left;
-align-items: center;
-gap: 50px;
+.contact-icons {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 50px;
 }
+
 .contact-icons img {
     width: 100px;
     height: 100px;
