@@ -1,0 +1,95 @@
+
+
+.leftmenu {
+    position: fixed; /* Sticks the menu to the viewport */
+    bottom: 0;
+    left: 0;
+    width: 275px; /* Width of the menu */
+    height: 100%; /* Full height of the page */
+    background-color: #333; /* Dark background color */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5); /* Subtle shadow for depth */
+    list-style-type: none;
+
+}
+
+.profile-picture{
+    position:absolute;
+    top: 150px;
+    left: 90px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px;
+}
+
+.leftmenu>ul {
+    margin-top: auto;
+}
+
+.leftmenu>li {
+    display: block;
+    margin-bottom: 90px;
+    }
+
+.leftmenu>li>a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 80px;
+    text-decoration: none;
+    }
+
+.leftmenu>li>a:hover {
+    background-color: #0D92F4; /* Highlight on hover */
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Style for the background image */
+.background {
+    position: absolute; /* Position it behind the content */
+    top: 0;
+    right: 0;
+    width: 80%; /* Image will cover 80% of the viewport width */
+    height: auto; /* Maintain aspect ratio */
+    opacity: 0.8; /* Make it slightly transparent for better readability */
+    z-index: -1; /* Place the image behind other elements */
+}
+
+.content {
+    margin-left: 320px; /* Adjust content to avoid overlapping with the menu */
+    padding: 20px;
+    margin-top: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0D92F4;
+}
+
+.about {
+    margin-left: 320px; /* Adjust content to avoid overlapping with the menu */
+    padding: 20px;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0D92F4;
+}
+.education {
+    margin-left: 320px; /* Adjust content to avoid overlapping with the menu */
+    padding: 20px;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0D92F4;
+}
+
+
+/* Content styling */
+h1 {
+    text-align: left;
+    font-size: 55px;
+}
+
+p {
+    font-size: 35px;
+    line-height: 2;
+}
