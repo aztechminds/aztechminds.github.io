@@ -1,3 +1,6 @@
+body{
+    background-color: #FDF7F4;
+}
 
 
 .leftmenu {
@@ -17,13 +20,12 @@
 }
 
 .profile-picture{
-    position:absolute;
-    top: 150px;
-    left: 90px;
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: 1px;
+    border: 2px;
+    margin: auto;
+
 }
 
 .leftmenu>ul {
@@ -32,13 +34,14 @@
 
 .leftmenu>li {
     display: block;
-    margin-bottom: 90px;
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: auto;
     }
 
 .leftmenu>li>a {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    padding: 80px;
     text-decoration: none;
     }
 
@@ -62,7 +65,7 @@
 .content {
     margin-left: 320px; /* Adjust content to avoid overlapping with the menu */
     padding: 20px;
-    margin-top: 350px;
+    margin-top: 500px;
     font-family: Arial, Helvetica, sans-serif;
     color: #0D92F4;
 }
@@ -75,6 +78,13 @@
     color: #0D92F4;
 }
 .education {
+    margin-left: 320px; /* Adjust content to avoid overlapping with the menu */
+    padding: 20px;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0D92F4;
+}
+.contact {
     margin-left: 320px; /* Adjust content to avoid overlapping with the menu */
     padding: 20px;
     margin-top: 3px;
